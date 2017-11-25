@@ -19,7 +19,7 @@ BASE_PATH : http://yanshinian.com
 
 description : 物尽其用！人尽其才！两全其美！
 title : GoileoLee
-logo : /assets/images/avatar.jpg
+logo : /avatar.jpg
 #cover : /assets/images/background-cover.jpg
 
 
@@ -33,4 +33,4 @@ author:
   facebook: 言十年
   googleplus: +十年
   bio: "我是言十年，互相学习，互相进步"
-  uno-dbyll: /avatar.jpg
+  uno-dbyll: /assets/images/avatar.jpg
