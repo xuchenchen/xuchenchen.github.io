@@ -18,8 +18,8 @@ tags_path : tags.html
 BASE_PATH : http://yanshinian.com
 
 description : 物尽其用！人尽其才！两全其美！
-title : 言十年的博客
-logo : /avatar.jpg
+title : GoileoLee
+logo : /assets/images/avatar.jpg
 #cover : /assets/images/background-cover.jpg
 
 
