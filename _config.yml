@@ -15,22 +15,22 @@ categories_path : categories.html
 tags_path : tags.html
 
 #BASE_PATH : http://blog.ankanbiswas.in/uno-dbyll
-BASE_PATH : http://yanshinian.com
+BASE_PATH : http://goileo.top
 
-description : 物尽其用！人尽其才！两全其美！
+description : 深沉的意志，恢宏的想象和炽热的情感！
 title : GoileoLee
-logo : /avatar.jpg
+logo : /assets/images/avatar.jpg
 #cover : /assets/images/background-cover.jpg
 
 
 author:
-  name: 言十年
+  name: GoileoLee
   maxim: Stay hungry,Stay foolish
   role: Jekyll Theme
-  email: yan@yanshinian.com
-  github: yanshinian
-  twitter: yanshinian
-  facebook: 言十年
-  googleplus: +十年
-  bio: "我是言十年，互相学习，互相进步"
+  email: goileolee@gmail.com
+  github: goileolee
+  twitter: goileolee
+  facebook: goileolee
+  googleplus: +goileolee
+  bio: "Hi, 我是goileolee"
   uno-dbyll: /assets/images/avatar.jpg
