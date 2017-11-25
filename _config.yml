@@ -17,14 +17,14 @@ tags_path : tags.html
 #BASE_PATH : http://blog.ankanbiswas.in/uno-dbyll
 BASE_PATH : http://goileo.top
 
-description : welcome to goileolee's site
-title : GoileoLee
+description : 深沉的意志，恢宏的想象和炽热的情感
+title : Goileo Lee
 logo : /assets/images/avatar.jpg
 #cover : /assets/images/background-cover.jpg
 
 
 author:
-  name: GoileoLee
+  name: Goileo Lee
   maxim: Stay hungry,Stay foolish
   role: Jekyll Theme
   email: goileolee@gmail.com
