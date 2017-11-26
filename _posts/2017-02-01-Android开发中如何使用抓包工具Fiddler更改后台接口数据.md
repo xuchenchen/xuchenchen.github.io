@@ -8,12 +8,15 @@ categories: Android
 ---
 ![1434282bz51izk5yf45y85.jpg](http://upload-images.jianshu.io/upload_images/4105122-6b5f220bfe7bae0d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240){:height="50%" width="50%"}
 
+
 ####1.什么是Fiddler
 - **Fiddler**是一个使用 C# 编写的 **http 抓包工具**。它使用灵活，功能强大，支持众多的 http 调试任务，是 web、移动应用的开发调试利器。
 - 同 **Httpwatch**、**Firebug** 这些抓包工具一样，Fiddler 够记录客户端和服务器之间的所有 http 请求，可以针对特定的 http 请求，分析请求数据、设置断点等。
 - 但 Fiddler 更为强大的是，它还可以修改请求的数据，甚至可以实现请求自动重定向，从而修改服务器返回的数据。
 - **Fiddler** 使用也十分方便。在打开 **Fiddler** 的时候，它就自动设置好了浏览器的代理，通过改写 http 代理，让数据从它那通过，来监控并且截取到数据。当关闭 **Fiddler** 的时候，它又自动帮你把代理还原。
 - 下载地址：[https://www.telerik.com/download/fiddler](https://www.telerik.com/download/fiddler)
+
+
 ####2.走进Fiddler
 
 ![Fiddler主界面说明](http://upload-images.jianshu.io/upload_images/4105122-8cdcefe462e34be9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -31,6 +34,8 @@ Host：指定显示某个域名下的会话
 ![过滤器](http://upload-images.jianshu.io/upload_images/4105122-61e4889964ac3e11.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 如果想修改服务器返回的接口数据，则可以使用AutoResponder功能。
+
+
 ####3.改变接口返回的数据*
 - AutoResponder 允许你拦截指定规则的请求，并返回本地资源或 Fiddler 资源，从而代替服务器响应。通常我们在开发App项目的初期，如果出现App端前期工作已经做完了，但服务器端接口联调通过但数据不够完善。这时我们就可以通过Fiddler来修改服务器返回的接口数据了。当然Fiddler还有很多用处，比如某个App在某种情况下限制你进入，那么可以尝试用Fiddler修改接口数据。
 - 配置
