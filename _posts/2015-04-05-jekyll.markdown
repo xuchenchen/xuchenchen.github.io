@@ -6,7 +6,7 @@ date:   2015-04-03 02:15:48
 categories: jekyll 使用教程
 
 ---
-了解jekyll
+搭建jekyll博客
 
 ```
 免費的BLog生成工具
@@ -25,13 +25,13 @@ GitHub Pages + Jekyll = Your blog!(快速搭建)
 1.2 clone 你創建好的倉庫 你可以使用命令行，或者Giub終端.在你的磁盤上創建一個文件夾(*mkdir myblog*)，放置你的項目,在這個目錄下執行下面操作
 
 ```
-~ $ git clone https://github.com/yanshinian/yanshinian.github.io
-clone完，在myblog下有個*yanshinian.github.io*文件夾
+~ $ git clone https://github.com/goileolee/goileolee.github.io
+clone完，在myblog下有個*goileolee.github.io*文件夾
 ```
 1.3 創建一個index.html文件，作為測試文件
 
 ```
-~ $ cd yanshinian.github.io
+~ $ cd goileolee.github.io
 ~ $ echo "Hello Word" > index.html
 ``` 
 1.4 上傳至遠程倉庫
@@ -42,7 +42,7 @@ clone完，在myblog下有個*yanshinian.github.io*文件夾
 ~ $ git push -u origin master
 ```
 		
-1.5 驗證你的成果，打開你的瀏覽器，打開的的GitPages地址*http://yanshinian.github.io*
+1.5 驗證你的成果，打開你的瀏覽器，打開的的GitPages地址*http://goileolee.github.io*
 
 
 2.再搞個[Jekyll][jekyllrb]當Blog，英文不好看[Jekyll中文站][jekyllcn]
@@ -59,7 +59,7 @@ clone完，在myblog下有個*yanshinian.github.io*文件夾
 
 3.1找主題。我是http://jekyllthemes.org/ 上找了個，本想用默認的，但是，默認的需要花時間裝飾。我選擇的是這個主題http://jekyllthemes.org/themes/uno-dbyll/
 
-3.2更換主題。你把你保存博客的文件夾打開，比如我的是`yanshinian.github.io`把裡面的東西，全部清空,如果你跟我選的主題，一樣那麼打開頁面，點擊 `HomePage`就是這個開源主題，github的地址。當然你可以直接`Download`，我覺得git很方便。找到git的url。clone到 `yanshinian.github.io`文件夾中
+3.2更換主題。你把你保存博客的文件夾打開，比如我的是`goileolee.github.io`把裡面的東西，全部清空,如果你跟我選的主題，一樣那麼打開頁面，點擊 `HomePage`就是這個開源主題，github的地址。當然你可以直接`Download`，我覺得git很方便。找到git的url。clone到 `goileolee.github.io`文件夾中
 
 ```
 ~ $ git https://github.com/talk2ankan/uno-dbyll.git`
@@ -80,9 +80,9 @@ down下來，運行，確保能用
 
 4.綁定你的域名
 
-4.1 創建一個 `CNAME` 文件，放在你的根目錄下，打開填寫你的域名`yanshinian.com`
+4.1 創建一個 `CNAME` 文件，放在你的根目錄下，打開填寫你的域名`goileo.top`
 
-4.2 解析你的域名,A 記錄 ip 地址獲取：`ping yanshinian.github.io`
+4.2 解析你的域名,A 記錄 ip 地址獲取：`ping goileolee.github.io`
 
 ![](/images/jekyll/jekyll01.png)
 
