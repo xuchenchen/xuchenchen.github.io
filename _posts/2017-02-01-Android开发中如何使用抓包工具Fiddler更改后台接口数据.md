@@ -1,4 +1,12 @@
-![1434282bz51izk5yf45y85.jpg](http://upload-images.jianshu.io/upload_images/4105122-6b5f220bfe7bae0d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+---
+layout: post
+title:  "Android开发中用Fiddler抓包，更改后台接口数据"
+category: Android
+date:   2017-02-01 20:15:48
+categories: Android
+
+---
+![1434282bz51izk5yf45y85.jpg](http://upload-images.jianshu.io/upload_images/4105122-6b5f220bfe7bae0d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240){:height="50%" width="50%"}
 
 ####1.什么是Fiddler
 - **Fiddler**是一个使用 C# 编写的 **http 抓包工具**。它使用灵活，功能强大，支持众多的 http 调试任务，是 web、移动应用的开发调试利器。

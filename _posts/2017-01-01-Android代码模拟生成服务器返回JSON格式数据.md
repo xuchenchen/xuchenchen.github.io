@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Android代码模拟生成服务器返回JSON格式数据"
+category: Android
+date:   2017-01-01 20:15:48
+categories: Android
+
+---
+
 ####S：
 在服务器端开发同学还没有写好接口的时候，或服务器端开发同学给出的接口不能让你满意的时候，你就可以通过以下两种方式来自己实现接口。
 ####T：
