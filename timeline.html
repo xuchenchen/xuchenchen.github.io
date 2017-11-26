@@ -25,7 +25,7 @@ excerpt: 博客时间线
       {% if post.istop %}
       {% else %}
         <li>
-          <h1 class="time-line-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h1>
+          <h4 class="time-line-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h4>
           <div class="time-line-mate"><time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span class="post-list__meta--tags tags">{{ post.category }}</span></div>
         </li>
       {% endif %}
