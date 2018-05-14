@@ -1,6 +1,46 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>徐老师</title>
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.6&key=08c8e066705a7186bc2c06e197df6260"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+    
+    <title>{{ page.title }}</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="{{ page.description }}">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ page.description }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
+
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link href="/assets/images/favicon.png" rel="shortcut icon" type="image/png">
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <!-- Styles and Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/vno.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/tomorrow.css">
+    
+    <!-- Ghost Head  -->
+   
+
+</head>
 
   
   
@@ -37,58 +77,18 @@ var _hmt = _hmt || [];
     });
     //解析定位结果
     function onComplete(data) {
-        var str=['定位成功'];
-        str.push('经度：' + data.position.getLng());
-        str.push('纬度：' + data.position.getLat());
+        var str=[''];
+        str.push('=' + data.position.getLng());
+        str.push('=' + data.position.getLat());
         if(data.accuracy){
-             str.push('精度：' + data.accuracy + ' 米');
+             str.push('=' + data.accuracy + 'm');
         }//如为IP精确定位结果则没有精度信息
-        str.push('是否经过偏移：' + (data.isConverted ? '是' : '否'));
+      
         document.getElementById('tip').innerHTML = str.join('<br>');
     }
    
 </script>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
-    <title>浏览器定位</title>
-    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
-    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.6&key=08c8e066705a7186bc2c06e197df6260"></script>
-    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
-    
-    <title>{{ page.title }}</title>
-
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <meta name="description" content="{{ page.description }}">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ page.description }}">
-    <meta name="twitter:description" content="{{ page.description }}">
-
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="{{ page.description }}">
-    <meta property="og:description" content="{{ page.description }}">
-
-    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
-    <link href="/assets/images/favicon.png" rel="shortcut icon" type="image/png">
-    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
-
-    <!-- Styles and Scripts -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/vno.css" />
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/assets/css/tomorrow.css">
-    
-    <!-- Ghost Head  -->
-   
-
-</head>
 <body class="home-template no-js">
 <div id='container'></div>
 <div id="tip"></div>
