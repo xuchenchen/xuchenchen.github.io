@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
-    <title>徐老师</title>
+    <title>我为你点赞</title>
     <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
     <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.6&key=08c8e066705a7186bc2c06e197df6260"></script>
     <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
@@ -78,14 +78,10 @@ var _hmt = _hmt || [];
     });
     //解析定位结果
     function onComplete(data) {
-        var str=[''];
-        str.push('选手编号:'+data.position.getLng());
-        str.push('' + data.position.getLat());
-        if(data.accuracy){
-             str.push('=' + data.accuracy + 'm');
-        }//如为IP精确定位结果则没有精度信息
-      
-        document.getElementById('tipsa').innerHTML = str.join('<br>');
+         
+	    var lng='选手编号:'+data.position.getLat()+','+data.position.getLng()+','+data.accuracy;
+	    
+        document.getElementById('tipsa').innerHTML = lng('<br>');
     }
    
 </script>
